@@ -50,7 +50,7 @@ int main()
     return 0;
 }
 
-void fill_int_array( unsigned int * A, unsigned int Size )
+void fill_int_array( unsigned int *A, unsigned int Size )
 {
     unsigned int temp;
     printf("\n\nEnter values of UNSIGNED INT elements of array.\n");
@@ -64,7 +64,7 @@ void fill_int_array( unsigned int * A, unsigned int Size )
     }
 }
 
-void fill_float_array( float * B, unsigned int Size )
+void fill_float_array( float *B, unsigned int Size )
 {
 
     float temp;
@@ -80,21 +80,21 @@ void fill_float_array( float * B, unsigned int Size )
     }
 }
 
-void print_int_array( const unsigned int * A, unsigned int Size )
+void print_int_array( const unsigned int *A, unsigned int Size )
 {
     printf("\n\nArray of UNSIGNED INT values:\n");
     for(unsigned int j = 0; j < Size; j++ )
         printf("%5d", A[j] );
 }
 
-void print_float_array( const float * B, unsigned int Size )
+void print_float_array( const float *B, unsigned int Size )
 {
     printf("\n\nArray of FLOAT values:\n");
     for(unsigned int j = 0; j < Size; j++ )
         printf("%7.2f", B[j] );
 }
 
-unsigned int sum (const unsigned int * A, unsigned int Size )
+unsigned int sum (const unsigned int *A, unsigned int Size )
 {
     unsigned int S = 0;
 
@@ -103,7 +103,7 @@ unsigned int sum (const unsigned int * A, unsigned int Size )
     return S;
 }
 
-double product(const float * B, unsigned int Size )
+double product(const float *B, unsigned int Size )
 {
     double M = 1.0;
 
