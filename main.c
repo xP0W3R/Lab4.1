@@ -41,7 +41,7 @@ int main()
     min_value = find_min(A, Size);
     max_value = find_max(B, Size);
     printf("\n\nSum A = %u", amount);
-    printf("\nProduct A x B = %.3lf", mult);
+    printf("\nProduct A x B = %.2lf", mult);
     printf("\nAverage A = %.1f", average_value);
     printf("\nMinimum = %u", min_value);
     printf("\nMaximum = %.2f", max_value);
